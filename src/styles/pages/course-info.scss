@@ -1,0 +1,114 @@
+@use "../library/variables.scss" as *;
+@use "../library/mixins.scss" as *;
+@use "../library/animations.scss" as *;
+
+.course-all{
+  display: flex;
+  margin: 20px;
+  gap: 10px;
+  & > section{
+    flex: 1;
+  }
+}
+.course-info{
+  padding: 0;
+  min-width: 70%;
+  .banner{
+    width: 100%;
+    background-image: linear-gradient(to right, #00b0bf, #00bf76);
+    padding: 80px;
+    position: relative;
+    img{
+      width: 130px;
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      border: 5px solid $widget-bg;
+      outline: 1px solid #eee;
+    }
+  }
+  .course-details{
+    padding: 30px 50px;
+    & > div{
+      margin: 20px 0;
+      padding: 10px 0;
+      border-bottom: 1px solid $border-ccc;
+    }
+    .heading{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h1{
+        margin-right: 15px;
+      }
+      .nums{
+        text-transform: capitalize;
+        display: flex;
+        gap: 10px;
+      }
+    }
+    .about .link{
+      font-size: 20px;
+      margin: 15px 0;
+      a{
+        color: $grey;
+        text-decoration: underline;
+      }
+    }
+    h3{
+      margin: 0 0 10px;
+    }
+    p, ul li{
+      line-height: 1.7;
+      color: $alt-fc;
+      // position:relative;
+    }
+    ul li{
+      list-style-type: disc;
+      margin: 0 0 15px 20px;
+      &::marker{
+        color: black;
+      }
+    }
+  }
+  // course-info ====> nav-content
+  .nav-content{
+    nav{
+      display: flex;
+      gap: 20px;
+      a{
+        color: $main-fc;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 6px;
+        overflow: hidden;
+        transition: 0.3s;
+        position: relative;
+        &::before{
+          @include ele(0, 3px, black);
+          transition: 0.3s;
+          left: 0;
+          bottom: 0;
+        }
+        &.active, &:hover{
+          background-color: #f6f6f6;
+          &::before{
+            width: 100%;
+          }
+        }
+      }
+      margin: 0 0 15px;
+    }
+    .content{
+      height: 400px;
+      overflow-y: scroll;
+      padding: 0 0 10px;
+    }
+  }
+}
+
+.course-settings{
+  // width: 300px;
+  height: 500px;
+}

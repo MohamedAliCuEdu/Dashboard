@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "track": "frontend",
+    "courseName": "learn: HTML",
+    "avatar": "team-01.png",
+    "courseImg": "course-01.jpg",
+    "about": "master the art of web designing and mocking, prototyping and creating web design archtiecture",
+    "price": 950,
+    "learnersCount": "free"
+  },
+  {
+    "id": 2,
+    "track": "fundamentals_of_programming",
+    "courseName": "data structure and algorithems",
+    "avatar": "team-02.png",
+    "courseImg": "course-02.jpg",
+    "about": "master the art of data structure and famous algorithems like sorting, dividing and conquering",
+    "price": 1150,
+    "learnersCount": 210
+  },
+  {
+    "id": 3,
+    "track": "frontend",
+    "courseName": "learn: SASS",
+    "avatar": "team-03.png",
+    "courseImg": "course-03.jpg",
+    "about": "mastering responsive web design and media queries and know everything about breakpoints",
+    "price": 650,
+    "learnersCount": 90
+  },
+  {
+    "id": 4,
+    "track": "frontend",
+    "courseName": "learn: CSS",
+    "avatar": "team-04.png",
+    "courseImg": "course-04.jpg",
+    "about": "PHP tutorials and examples and practice on web application and connecting with databases",
+    "price": 850,
+    "learnersCount": 150
+  },
+  {
+    "id": 5,
+    "track": "backend",
+    "courseName": "learn: node.js",
+    "avatar": "team-05.png",
+    "courseImg": "course-05.jpg",
+    "about": "matering python to prepare for data science and AI and automating things in your life",
+    "price": 950,
+    "learnersCount": "free"
+  },
+  {
+    "id": 6,
+    "track": "frontend",
+    "courseName": "learn: JavaScript (basices)",
+    "avatar": "team-02.png",
+    "courseImg": "course-02.jpg",
+    "about": "master the art of data structure and famous algorithems like sorting, dividing and conquering",
+    "price": 1150,
+    "learnersCount": 210
+  },
+  {
+    "id": 66,
+    "track": "frontend",
+    "courseName": "learn: JavaScript (Advansed)",
+    "avatar": "team-02.png",
+    "courseImg": "course-02.jpg",
+    "about": "master the art of data structure and famous algorithems like sorting, dividing and conquering",
+    "price": 1150,
+    "learnersCount": "free"
+  },
+  {
+    "id": 7,
+    "track": "frontend",
+    "courseName": "learn: JavaScript (DOM & BOM)",
+    "avatar": "team-03.png",
+    "courseImg": "course-03.jpg",
+    "about": "mastering responsive web design and media queries and know everything about breakpoints",
+    "price": 650,
+    "learnersCount": 90
+  },
+  {
+    "id": 8,
+    "track": "backend",
+    "courseName": "learn: express.js",
+    "avatar": "team-01.png",
+    "courseImg": "course-01.jpg",
+    "about": "master the art of web designing and mocking prototyping and creating web design archtiecture",
+    "price": 950,
+    "learnersCount": 165
+  },
+  {
+    "id": 9,
+    "track": "backend",
+    "courseName": "learn: mongo.DB",
+    "avatar": "team-05.png",
+    "courseImg": "course-05.jpg",
+    "about": "PHP tutorials and examples and practice on web application and connecting with databases",
+    "price": 850,
+    "learnersCount": 150
+  },
+  {
+    "id": 10,
+    "track": "backend",
+    "courseName": "learn: PHP",
+    "avatar": "team-04.png",
+    "courseImg": "course-04.jpg",
+    "about": "matering python to prepare for data science and AI and automating things in your life",
+    "price": 950,
+    "learnersCount": 25
+  }
+]
