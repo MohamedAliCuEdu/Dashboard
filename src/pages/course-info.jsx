@@ -1,4 +1,4 @@
-import { useParams, useSearchParams, NavLink, Outlet } from "react-router-dom";
+import { useParams, NavLink, Outlet } from "react-router-dom";
 
 // import courses data:
 import courses from "../json/courses.json";
