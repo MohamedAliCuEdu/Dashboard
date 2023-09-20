@@ -16,7 +16,7 @@ function Files() {
       <div className="files-page">
         <div className="files">
           {files.map((file) => {
-            const { id, fileName, author, fileImg, date, size } = file;
+            const { id, fileName, author, date, size } = file;
             return (
               <div key={id} className="file widget">
                 <div className="head">

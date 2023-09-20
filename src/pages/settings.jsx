@@ -55,7 +55,7 @@ function Settings() {
               <span>password</span>
               <p>last change on 25/10/2021</p>
             </div>
-            <a href="#" className="btn-blue">
+            <a href="settings" className="btn-blue">
               change
             </a>
           </div>
@@ -74,7 +74,7 @@ function Settings() {
               <span>devices</span>
               <p>check the login devices list</p>
             </div>
-            <a href="#" className="btn-grey">
+            <a href="settings" className="btn-grey">
               devices
             </a>
           </div>

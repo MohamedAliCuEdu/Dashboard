@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useParams, useSearchParams, NavLink, Outlet } from "react-router-dom";
 
 // import courses data:
@@ -72,7 +71,6 @@ function Unites() {
 // console.log(courses);
 function CourseInfo() {
   const params = useParams();
-  const [searchParams, setSearchParams] = useSearchParams();
   const course = courses.filter((e) => ":" + e.courseName === params.course)[0];
 
   if (course !== undefined) {
@@ -99,7 +97,7 @@ function CourseInfo() {
                 <h3>about:</h3>
                 <p className="about">{about}</p>
                 <div className="link">
-                  link: <a href="#">example/course.com</a>
+                  link: <a href="settings">example/course.com</a>
                 </div>
               </div>
               <div className="nav-content">
